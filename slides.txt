@@ -1,0 +1,50 @@
+\@valignatev
+
+Я программист
+
+пишу код за $
+
+но это не точно
+
+и не всегда
+
+@programming.png
+# Here I'm asking for "what programming is?"
+
+Программирование
+облегчает жизнь
+
+Программирование
+это весело
+
+Программирование
+это легко*
+
+легче,
+чем ты думаешь сейчас
+
+print('Hello World')
+# Ok, let's code!
+
+Социализация
+# Isolation is the worst thing
+
+Где тусить?
+t.me/xadev
+stackoverflow.com
+discordapp.com
+slack.com
+
+Где делиться?
+github.com
+gitlab.com
+bitbucket.org
+
+github.com/valignatev/codeday2018
+
+GitHub.com
+ - зарегаться
+ - выкладывать код
+# Github is like instagram for programmers
+
+\@valignatev
