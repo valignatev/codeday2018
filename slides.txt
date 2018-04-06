@@ -35,6 +35,10 @@ stackoverflow.com
 discordapp.com
 slack.com
 
+Где учиться?
+Интернет
+Локальные митапы
+
 Где делиться?
 github.com
 gitlab.com
