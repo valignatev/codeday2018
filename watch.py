@@ -24,7 +24,7 @@ with open('title.basics.tsv', 'r') as basics_file:
 
 # Usage example
 # import random
-# random.choise(
+# random.choice(
 #     [
 #         m for m in movies
 #         if m['rating'] > 9 and m['votes'] > 1000 and 'Sci-Fi' in m['genres']
