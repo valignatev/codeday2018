@@ -1,4 +1,4 @@
-* Programming is awesome
+# Programming is awesome
 
 Talk I gave at local Codeday meetup for high school and freshman students.
 
