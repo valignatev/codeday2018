@@ -1,0 +1,1489 @@
+1
+00:00:01,340 --> 00:00:02,680
+Hi everybody!
+
+2
+00:00:02,700 --> 00:00:04,700
+Valentin is my name
+
+3
+00:00:05,840 --> 00:00:08,540
+I'm a programmer like every speaker here
+
+4
+00:00:09,420 --> 00:00:11,420
+Programmer means write code for money
+
+5
+00:00:11,940 --> 00:00:13,940
+Well, not exactly
+
+6
+00:00:14,140 --> 00:00:16,140
+And not always
+
+7
+00:00:18,040 --> 00:00:21,820
+Who can tell right now what is programming for?
+
+8
+00:00:24,160 --> 00:00:25,000
+*(crowd) make life easier
+
+9
+00:00:25,640 --> 00:00:26,320
+what-what?
+
+10
+00:00:26,740 --> 00:00:28,740
+Make life easier, anybody else?
+
+11
+00:00:28,740 --> 00:00:29,840
+*(crowd) make sites
+
+12
+00:00:29,840 --> 00:00:30,420
+Aha
+
+13
+00:00:31,380 --> 00:00:33,380
+*(crowd) make money, write soft
+
+14
+00:00:33,380 --> 00:00:34,560
+All correct, all correct
+
+15
+00:00:34,560 --> 00:00:36,540
+*(crowd) to not go out and make money
+
+16
+00:00:36,540 --> 00:00:37,700
+Plain amazing, yeah
+
+17
+00:00:37,700 --> 00:00:39,260
+Well, all of you are right
+
+18
+00:00:39,260 --> 00:00:41,580
+Programming indeed makes life easier
+
+19
+00:00:42,660 --> 00:00:44,660
+Programming is fun
+
+20
+00:00:45,260 --> 00:00:46,220
+It is easy
+
+21
+00:00:47,320 --> 00:00:48,200
+with a fine print
+
+22
+00:00:48,980 --> 00:00:51,160
+Actually, easier than you think right now
+
+23
+00:00:52,200 --> 00:00:54,200
+Won't talk long
+
+24
+00:00:54,200 --> 00:00:55,420
+About my story
+
+25
+00:00:55,420 --> 00:00:56,860
+Sad story of my life
+
+26
+00:00:56,860 --> 00:00:58,360
+Let me show you something
+
+27
+00:00:59,160 --> 00:01:00,560
+Supposedly funny
+
+28
+00:01:00,600 --> 00:01:02,700
+Programming indeed makes life easier
+
+29
+00:01:02,900 --> 00:01:04,900
+Aaand with it's help you can
+
+30
+00:01:04,900 --> 00:01:06,520
+Do something really fast
+
+31
+00:01:06,520 --> 00:01:07,880
+And very helpful
+
+32
+00:01:08,140 --> 00:01:09,940
+Who know what imdb is?
+
+33
+00:01:10,900 --> 00:01:11,400
+Yes
+
+34
+00:01:11,500 --> 00:01:12,220
+*(crowd) It's ratings
+
+35
+00:01:12,220 --> 00:01:16,000
+It's movies database like kinopoisk but in English
+*(kinopoisk is Russian imdb)
+
+36
+00:01:16,600 --> 00:01:18,680
+Big one, imdb.com
+
+37
+00:01:18,860 --> 00:01:23,580
+And they dump all info to the text files on their site which can be downloaded
+
+38
+00:01:24,120 --> 00:01:26,560
+Huge file with the size of 0.5GB
+
+39
+00:01:26,660 --> 00:01:29,000
+With all titles, release dates
+
+40
+00:01:29,320 --> 00:01:30,840
+And ratings, most interesting
+
+41
+00:01:30,840 --> 00:01:31,700
+So
+
+42
+00:01:31,980 --> 00:01:33,980
+Let's write a program
+
+43
+00:01:34,100 --> 00:01:37,220
+Which will help to pick something new to watch
+
+44
+00:01:37,220 --> 00:01:40,620
+To begin, everybody is able to see? Shoud I make it bigger?
+
+45
+00:01:41,720 --> 00:01:43,460
+*(crowd) Bigger is better
+
+46
+00:01:44,140 --> 00:01:46,680
+Bigger like this, is it better?
+
+47
+00:01:47,260 --> 00:01:48,620
+*(crowd) A little more please
+
+48
+00:01:48,680 --> 00:01:50,680
+Yes, sure, sure, anything
+
+49
+00:01:51,900 --> 00:01:52,540
+Like this
+
+50
+00:01:53,600 --> 00:01:54,100
+Aha
+
+51
+00:01:54,860 --> 00:01:56,300
+So, two files
+
+52
+00:01:56,300 --> 00:01:58,060
+From imdb are interesting for us
+
+53
+00:01:58,080 --> 00:02:00,080
+And this is how looks one of them
+
+54
+00:02:00,080 --> 00:02:01,620
+Pay attention
+
+55
+00:02:01,620 --> 00:02:03,100
+Columns at the top
+
+56
+00:02:03,100 --> 00:02:05,000
+Do you all know about Excel?
+
+57
+00:02:05,180 --> 00:02:08,160
+This is an Excel file in a nutshell, but raw
+
+58
+00:02:08,160 --> 00:02:09,820
+Every column
+
+59
+00:02:09,900 --> 00:02:12,600
+Is separated from each other with a tab symbol
+
+60
+00:02:13,220 --> 00:02:14,500
+Here, at the top
+
+61
+00:02:14,840 --> 00:02:15,740
+Headers
+
+62
+00:02:16,000 --> 00:02:18,000
+What do we have, a title
+
+63
+00:02:18,000 --> 00:02:19,460
+is for adults or no
+
+64
+00:02:19,460 --> 00:02:20,640
+release date
+
+65
+00:02:21,040 --> 00:02:22,020
+Genres
+
+66
+00:02:22,020 --> 00:02:23,320
+And then the rows
+
+67
+00:02:23,860 --> 00:02:26,320
+First movie, second movie, third movie
+
+68
+00:02:26,320 --> 00:02:28,240
+Fourth movie, fifth etc
+
+69
+00:02:28,240 --> 00:02:29,400
+And the second file
+
+70
+00:02:29,680 --> 00:02:31,920
+Where the first column is
+
+71
+00:02:32,400 --> 00:02:34,520
+First column is the same as in first file
+
+72
+00:02:35,000 --> 00:02:36,860
+And the second column is a rating on the site
+
+73
+00:02:36,860 --> 00:02:38,860
+It's the same one as in kinopoisk
+
+74
+00:02:38,860 --> 00:02:39,640
+Everybody know what kinopoisk is?
+
+75
+00:02:40,260 --> 00:02:42,260
+So, this is the same as kinopoisk rating
+
+76
+00:02:42,260 --> 00:02:43,880
+And the number of votes
+
+77
+00:02:44,220 --> 00:02:46,220
+To know if anybody is interested in the movie
+
+78
+00:02:46,960 --> 00:02:48,420
+What do we do with them
+
+79
+00:02:48,900 --> 00:02:50,280
+We'll take both of these files
+
+80
+00:02:50,280 --> 00:02:51,580
+And we'll try to merge them
+
+81
+00:02:51,600 --> 00:02:55,560
+By the first column to get whole pucture of all ratings
+
+82
+00:02:56,140 --> 00:02:58,140
+First, pay attention to te botton
+
+83
+00:02:58,760 --> 00:03:00,760
+Where's the mouse, here, this number
+
+84
+00:03:00,820 --> 00:03:04,740
+This is an amount of imdb movies with any rating
+
+85
+00:03:05,080 --> 00:03:07,080
+820202
+
+86
+00:03:07,280 --> 00:03:11,480
+I'll write simple Python programm, nevermind if you don't understand something
+
+87
+00:03:11,540 --> 00:03:13,740
+The purpose is to show you that it's easy and fun
+
+88
+00:03:14,300 --> 00:03:15,340
+Supposedly
+
+89
+00:03:15,940 --> 00:03:16,780
+Aaaam
+
+90
+00:03:18,780 --> 00:03:20,780
+And we'll start with
+
+91
+00:03:20,800 --> 00:03:23,360
+The use of one of the Python's libraries
+
+92
+00:03:23,360 --> 00:03:24,740
+Which helps
+
+93
+00:03:24,780 --> 00:03:27,280
+To read files in such format in convenient way
+
+94
+00:03:28,400 --> 00:03:30,820
+Second, we have to open these files
+
+95
+00:03:31,500 --> 00:03:34,700
+In Python we open files with "open" function
+
+96
+00:03:35,020 --> 00:03:37,280
+Is here anybody who never wrote any code?
+
+97
+00:03:38,200 --> 00:03:41,320
+Everybody wrote something, like with Pascal in school, right?
+
+98
+00:03:41,320 --> 00:03:42,560
+Good, great
+
+99
+00:03:42,560 --> 00:03:43,440
+I'll show you now
+
+100
+00:03:45,660 --> 00:03:46,820
+*(mumbling) hippie-expand
+
+101
+00:03:48,360 --> 00:03:49,040
+Well
+
+102
+00:03:50,020 --> 00:03:50,620
+Yes
+
+103
+00:03:51,240 --> 00:03:53,240
+We open the file in "read mode"
+
+104
+00:03:53,240 --> 00:03:54,780
+Call it "f1"
+
+105
+00:03:56,480 --> 00:03:59,180
+And put file contents in the variable
+
+106
+00:03:59,180 --> 00:04:00,700
+Which we call "title"
+
+107
+00:04:01,500 --> 00:04:04,500
+For this we wrap it into the thing we just imported
+
+108
+00:04:04,500 --> 00:04:05,960
+Pass the file there
+
+109
+00:04:05,960 --> 00:04:06,960
+Aaand
+
+110
+00:04:07,580 --> 00:04:09,740
+The "delimiter" param which means that
+
+111
+00:04:09,880 --> 00:04:12,520
+backwards slash means tab symbol, it's represented that way
+
+112
+00:04:12,620 --> 00:04:15,740
+Each column is separated by the tab symbol
+
+113
+00:04:15,980 --> 00:04:18,560
+And while first file is opened, we open the second one
+
+114
+00:04:20,900 --> 00:04:23,540
+Aaa, which is called "ratings"
+
+115
+00:04:23,860 --> 00:04:27,020
+It's opened in the "read" mode as well, read, the read
+
+116
+00:04:27,400 --> 00:04:29,400
+And we put its contents
+
+117
+00:04:29,400 --> 00:04:30,700
+in the
+
+118
+00:04:31,140 --> 00:04:33,140
+variable called "rating"
+
+119
+00:04:34,460 --> 00:04:35,360
+"f2"
+
+120
+00:04:36,180 --> 00:04:37,500
+delimiter is equals
+
+121
+00:04:37,500 --> 00:04:39,080
+the tab symbol as well
+
+122
+00:04:40,560 --> 00:04:42,560
+Remember what's next?
+
+123
+00:04:42,560 --> 00:04:44,140
+We take the ratings file
+
+124
+00:04:44,160 --> 00:04:49,340
+We begin to go through each line and try to merge it with a row from the first file
+
+125
+00:04:49,600 --> 00:04:51,560
+Problem is - the first file is much bigger than the second one
+
+126
+00:04:51,560 --> 00:04:55,100
+It's about 5 million lines because not every movie has a rating
+
+127
+00:04:55,700 --> 00:04:56,360
+That's why
+
+128
+00:04:59,500 --> 00:05:01,640
+Everybody is familiar with a loop concept?
+
+129
+00:05:02,280 --> 00:05:03,340
+Yes? Good
+
+130
+00:05:03,340 --> 00:05:04,140
+This is a loop
+
+131
+00:05:04,520 --> 00:05:06,520
+Over each row from the ratings file
+
+132
+00:05:07,720 --> 00:05:08,700
+So, we take
+
+133
+00:05:08,700 --> 00:05:10,600
+The row from ratings file
+
+134
+00:05:11,240 --> 00:05:14,020
+Then take the row from the file with
+
+135
+00:05:14,020 --> 00:05:15,860
+the titles, the names
+
+136
+00:05:16,500 --> 00:05:17,300
+While
+
+137
+00:05:17,300 --> 00:05:18,140
+Aaa
+
+138
+00:05:18,140 --> 00:05:20,920
+The first column which is called "tconst"
+
+139
+00:05:21,180 --> 00:05:23,180
+is not equal to the same row
+
+140
+00:05:24,100 --> 00:05:26,100
+from the ratings file
+
+141
+00:05:26,320 --> 00:05:27,780
+We take the next
+
+142
+00:05:27,780 --> 00:05:29,940
+Row from the big file
+
+143
+00:05:29,940 --> 00:05:31,780
+You get what's happening, right?
+
+144
+00:05:32,780 --> 00:05:34,780
+And when they match
+
+145
+00:05:35,080 --> 00:05:37,640
+When they match we break out of while
+
+146
+00:05:37,640 --> 00:05:41,020
+By the way you see that I insert 4 spaces before each line?
+
+147
+00:05:41,180 --> 00:05:43,420
+It's just like begin/end in the Pascal in a nutshell
+
+148
+00:05:43,420 --> 00:05:45,040
+Beginning and the end of the block
+
+149
+00:05:45,100 --> 00:05:47,240
+I think, never wrote anything in Pascal to be honest
+
+150
+00:05:47,520 --> 00:05:48,300
+Ahahah
+
+151
+00:05:48,580 --> 00:05:49,600
+When they mached
+
+152
+00:05:49,600 --> 00:05:50,780
+We, uhh
+
+153
+00:05:50,800 --> 00:05:53,860
+Let's create an empty variable which we'll call "movies"
+
+154
+00:05:53,860 --> 00:05:54,520
+"Movies"
+
+155
+00:05:54,620 --> 00:05:57,020
+It's just a list which we'll fill with
+
+156
+00:05:57,060 --> 00:05:59,600
+movies in convenient format
+
+157
+00:05:59,920 --> 00:06:02,560
+And Python list has an "append" function
+
+158
+00:06:02,940 --> 00:06:05,500
+In which we'll put it in a convenient way
+
+159
+00:06:06,180 --> 00:06:09,280
+Aaa, movies has a title which we get from the big file
+
+160
+00:06:09,980 --> 00:06:11,980
+Aaaa, I think it's name is
+
+161
+00:06:14,620 --> 00:06:17,020
+It's name is "primaryTitle", yeah
+
+162
+00:06:18,920 --> 00:06:20,260
+Primary Title
+
+163
+00:06:20,960 --> 00:06:22,140
+*(savage English) Pri-ma-ry
+
+164
+00:06:22,860 --> 00:06:23,420
+Title
+
+165
+00:06:25,140 --> 00:06:27,140
+Release year
+
+166
+00:06:28,040 --> 00:06:30,040
+Which is called "start"
+
+167
+00:06:30,040 --> 00:06:30,920
+"Year"
+
+168
+00:06:32,380 --> 00:06:33,860
+Next we have genres
+
+169
+00:06:35,660 --> 00:06:37,660
+Which called "genres"
+
+170
+00:06:38,440 --> 00:06:40,560
+And the "rating" in which we're interested
+
+171
+00:06:41,400 --> 00:06:45,080
+We take rating from the small file, by which we
+
+172
+00:06:45,460 --> 00:06:46,740
+By which we go through
+
+173
+00:06:46,740 --> 00:06:48,720
+It's called
+
+174
+00:06:50,040 --> 00:06:51,020
+average rating
+
+175
+00:06:52,660 --> 00:06:55,260
+But we need it in the number format
+
+176
+00:06:55,540 --> 00:06:57,960
+Who knows the difference between int and float?
+
+177
+00:06:58,880 --> 00:07:02,140
+Int is a whole number, float is a number with a dot, with a comma
+
+178
+00:07:02,140 --> 00:07:03,940
+Like this, a fractional number
+
+179
+00:07:04,420 --> 00:07:06,420
+Aand, we need a number of votes
+
+180
+00:07:06,680 --> 00:07:09,040
+Which we also take from the small file
+
+181
+00:07:09,040 --> 00:07:10,940
+But we cast it to the int number
+
+182
+00:07:11,360 --> 00:07:13,360
+And its name is
+
+183
+00:07:13,740 --> 00:07:15,740
+Its name is "numVotes"
+
+184
+00:07:19,520 --> 00:07:22,160
+Let's cross our fingers and try to run it
+
+185
+00:07:22,400 --> 00:07:24,700
+I opened to the near
+
+186
+00:07:24,700 --> 00:07:26,640
+The console of the Python language
+
+187
+00:07:26,640 --> 00:07:28,380
+In which we will play
+
+188
+00:07:28,380 --> 00:07:29,760
+Run something
+
+189
+00:07:29,780 --> 00:07:33,480
+Everything is wrong because I mistyped semicolon and a colon
+
+190
+00:07:34,080 --> 00:07:35,200
+Let's try one more time
+
+191
+00:07:35,200 --> 00:07:36,940
+It seems that something is working there
+
+192
+00:07:37,040 --> 00:07:39,040
+We should get
+
+193
+00:07:39,040 --> 00:07:40,180
+820
+
+194
+00:07:40,180 --> 00:07:41,020
+movies
+
+195
+00:07:41,020 --> 00:07:41,540
+here
+
+196
+00:07:42,920 --> 00:07:46,860
+While it's counting, files are huge, let's talk about
+
+197
+00:07:47,620 --> 00:07:48,760
+Socializing
+
+198
+00:07:50,300 --> 00:07:53,700
+The biggest mistake beginner programmer could make
+
+199
+00:07:53,700 --> 00:07:57,160
+Is a lock in the mum's basement only with books and speak to nobody
+
+200
+00:07:57,460 --> 00:07:59,460
+That's why socialization is very important
+
+201
+00:07:59,880 --> 00:08:02,440
+Without it you'll lose the interest in what you're doing really fast
+
+202
+00:08:02,960 --> 00:08:05,060
+Main question which should bother you
+
+203
+00:08:05,060 --> 00:08:06,740
+Is where to go after this conferens
+
+204
+00:08:06,740 --> 00:08:07,300
+Where to hang out?
+
+205
+00:08:07,300 --> 00:08:09,080
+Remember first link, it's a
+
+206
+00:08:09,080 --> 00:08:10,040
+Telegram group
+
+207
+00:08:10,240 --> 00:08:12,240
+Who doesn't have Telegram - install it
+
+208
+00:08:13,000 --> 00:08:14,260
+*(crowd) Untill it's not blocked yet
+
+209
+00:08:14,260 --> 00:08:15,620
+Yes, untill it's not blocked yet
+
+210
+00:08:16,040 --> 00:08:17,400
+And start from there
+
+211
+00:08:17,620 --> 00:08:19,620
+Second link is a StackOverflow site
+
+212
+00:08:19,620 --> 00:08:21,080
+There you can ask your questions
+
+213
+00:08:21,080 --> 00:08:24,240
+It has a Russian version, English is not required
+
+214
+00:08:24,760 --> 00:08:25,480
+And Discord
+
+215
+00:08:25,480 --> 00:08:27,480
+It's for gamers, but there are programmers as well
+
+216
+00:08:27,480 --> 00:08:28,460
+And slack.com
+
+217
+00:08:29,180 --> 00:08:31,740
+It has a lot of communities as well
+
+218
+00:08:32,380 --> 00:08:34,380
+It's main starting points
+
+219
+00:08:34,980 --> 00:08:36,980
+Where to learn programming?
+
+220
+00:08:37,000 --> 00:08:40,120
+Probably, you started to suspect on your computer classes that
+
+221
+00:08:40,800 --> 00:08:41,940
+Your teachers
+
+222
+00:08:42,020 --> 00:08:44,100
+Have not the most up to date knowledge
+
+223
+00:08:44,100 --> 00:08:46,060
+Did anybody noticed it?
+
+224
+00:08:46,940 --> 00:08:48,120
+Yeah, yeah, good
+
+225
+00:08:48,120 --> 00:08:49,580
+So, the best
+
+226
+00:08:49,580 --> 00:08:51,560
+Learging source is the Internet
+
+227
+00:08:52,760 --> 00:08:53,460
+In particular
+
+228
+00:08:53,720 --> 00:08:54,960
+Sites, blogs
+
+229
+00:08:55,020 --> 00:08:57,020
+Educational videos etc
+
+230
+00:08:57,020 --> 00:08:58,800
+And local meetups just like this one
+
+231
+00:08:58,800 --> 00:09:00,380
+While we're chit-chatting here
+
+232
+00:09:00,380 --> 00:09:02,160
+There is something interesting over there
+
+233
+00:09:02,480 --> 00:09:03,120
+Yup
+
+234
+00:09:04,380 --> 00:09:07,560
+And the main thing is when you write code - don't keep it within
+
+235
+00:09:07,560 --> 00:09:08,740
+You need it to
+
+236
+00:09:08,740 --> 00:09:09,960
+Show it to everybody
+
+237
+00:09:09,960 --> 00:09:11,120
+Who has an Instagram?
+
+238
+00:09:12,840 --> 00:09:14,840
+Why nobody has it?
+
+239
+00:09:14,840 --> 00:09:16,260
+Well, github.com
+
+240
+00:09:16,260 --> 00:09:17,720
+is an Instagram for programmers
+
+241
+00:09:17,740 --> 00:09:20,580
+Where we show not our suntanned bodies but our code
+
+242
+00:09:21,100 --> 00:09:21,640
+Here
+
+243
+00:09:22,840 --> 00:09:24,300
+Let's check how it's going
+
+244
+00:09:25,240 --> 00:09:27,720
+Oh, look, 820200 movies
+
+245
+00:09:28,100 --> 00:09:30,600
+Just about like it's in the ratings file
+
+246
+00:09:30,940 --> 00:09:32,940
+Let's play with them a little bit
+
+247
+00:09:33,440 --> 00:09:36,440
+So, Python has a module which is called "random"
+
+248
+00:09:36,960 --> 00:09:39,260
+It's to work with random things
+
+249
+00:09:39,600 --> 00:09:41,600
+So, let's look
+
+250
+00:09:41,600 --> 00:09:43,200
+For random
+
+251
+00:09:43,200 --> 00:09:44,780
+"choice" which is choice in English
+
+252
+00:09:44,780 --> 00:09:46,480
+Some random movie
+
+253
+00:09:46,480 --> 00:09:47,680
+Ahhh
+
+254
+00:09:49,600 --> 00:09:51,600
+Don't concentrate to much on this one
+
+255
+00:09:51,600 --> 00:09:53,420
+Movie among the movies
+
+256
+00:09:53,420 --> 00:09:54,340
+if
+
+257
+00:09:54,340 --> 00:09:55,660
+Its rating
+
+258
+00:09:57,220 --> 00:09:58,720
+Ra-ting
+
+259
+00:09:58,720 --> 00:10:00,340
+Yeah, bigger...
+
+260
+00:10:00,340 --> 00:10:01,880
+Let's take 8.5
+
+261
+00:10:01,880 --> 00:10:02,680
+And
+
+262
+00:10:03,180 --> 00:10:05,180
+And, for example, votes are
+
+263
+00:10:05,180 --> 00:10:07,080
+more that 10000
+
+264
+00:10:07,300 --> 00:10:09,300
+We don't want some unknown
+
+265
+00:10:10,220 --> 00:10:11,400
+shit to wach
+
+266
+00:10:12,200 --> 00:10:12,800
+And
+
+267
+00:10:14,780 --> 00:10:17,160
+And let's say it should be science fiction
+
+268
+00:10:17,160 --> 00:10:17,800
+Sci-Fi
+
+269
+00:10:18,840 --> 00:10:20,220
+Among its
+
+270
+00:10:20,640 --> 00:10:21,300
+Genres
+
+271
+00:10:23,100 --> 00:10:25,100
+Aha, what it suggests us to watch?
+
+272
+00:10:26,860 --> 00:10:29,140
+It suggest us "Inception" from 2010
+
+273
+00:10:29,780 --> 00:10:31,180
+Let's look for something else
+
+274
+00:10:32,080 --> 00:10:34,080
+*(savage English)"Mystery Science Theater 3000"
+
+275
+00:10:34,080 --> 00:10:34,960
+Anybody saw this?
+
+276
+00:10:35,880 --> 00:10:36,660
+Ahahah
+
+277
+00:10:37,100 --> 00:10:38,520
+Aaaa, ha-ha-ha
+
+278
+00:10:38,520 --> 00:10:40,200
+Let's for example
+
+279
+00:10:40,200 --> 00:10:41,320
+year, right?
+
+280
+00:10:43,000 --> 00:10:44,460
+Is more than 2010
+
+281
+00:10:45,440 --> 00:10:47,440
+Here's something fresher, right?
+
+282
+00:10:47,640 --> 00:10:49,820
+Hated in the Nation, [then same but in Russian]
+
+283
+00:10:50,520 --> 00:10:52,520
+Let's for example
+
+284
+00:10:54,920 --> 00:10:57,240
+Check out some "Action" movie
+
+285
+00:10:57,240 --> 00:10:59,100
+Vikings from 2013
+
+286
+00:11:00,080 --> 00:11:00,760
+It's alright
+
+287
+00:11:01,820 --> 00:11:04,320
+Or Mass Effect 3, it seems that imdb has games as well
+
+288
+00:11:04,320 --> 00:11:05,940
+So, programm is working
+
+289
+00:11:06,000 --> 00:11:08,000
+And, note that
+
+290
+00:11:08,200 --> 00:11:09,620
+If I, of course,
+
+291
+00:11:09,620 --> 00:11:11,000
+Can type today
+
+292
+00:11:12,000 --> 00:11:12,740
+Please
+
+293
+00:11:13,800 --> 00:11:15,280
+The whole program takes
+
+294
+00:11:15,940 --> 00:11:17,520
+20 lines of code
+
+295
+00:11:18,040 --> 00:11:21,480
+21 including all these things, and if we cut them
+
+296
+00:11:24,000 --> 00:11:26,000
+19, 18 lines of code
+
+297
+00:11:26,160 --> 00:11:28,860
+Just with 18 lines of code we wrote something helpful
+
+298
+00:11:28,860 --> 00:11:30,720
+Which you can even use
+
+299
+00:11:31,540 --> 00:11:33,540
+So, it was my talk purpose
+
+300
+00:11:34,240 --> 00:11:37,580
+You don't have to think that programming is hard
+
+301
+00:11:37,740 --> 00:11:39,960
+It's hard of course, but not when you just starting
+
+302
+00:11:41,400 --> 00:11:45,120
+All I just wrote and these slides are on github
+
+303
+00:11:45,300 --> 00:11:47,300
+As I said, in the Instagram for programmers
+
+304
+00:11:47,300 --> 00:11:48,680
+Leave a like :)
+
+305
+00:11:49,180 --> 00:11:51,180
+I also insist
+
+306
+00:11:51,560 --> 00:11:53,560
+on you to register there
+
+307
+00:11:54,140 --> 00:11:58,160
+And start to share your code even if it's just hello world
+
+308
+00:11:58,280 --> 00:12:00,540
+Or some unfinished drafts
+
+309
+00:12:00,680 --> 00:12:02,520
+Upload, share, nothing wrong about it
+
+310
+00:12:02,520 --> 00:12:05,080
+It's like shot your food and upload it to the Instagram
+
+311
+00:12:07,100 --> 00:12:09,100
+My twitter nickname
+
+312
+00:12:09,100 --> 00:12:10,060
+And in
+
+313
+00:12:10,060 --> 00:12:11,340
+Telegram
+
+314
+00:12:11,340 --> 00:12:12,580
+And in GitHub
+
+315
+00:12:12,580 --> 00:12:14,160
+Look for me, write me
+
+316
+00:12:15,120 --> 00:12:16,300
+Don't hesitate
+
+317
+00:12:16,580 --> 00:12:20,780
+Aa, that's all my slides, I'll open "where to hang out" slide just in case
+
+318
+00:12:21,220 --> 00:12:22,400
+So you write it down
+
+319
+00:12:23,800 --> 00:12:25,800
+That's all I have, I tried to make it fast
+
+320
+00:12:25,800 --> 00:12:27,460
+Ask your questions if you have any
+
+321
+00:12:28,500 --> 00:12:31,400
+I hope some of you is interested in trying things out
+
+322
+00:12:31,400 --> 00:12:32,520
+After all of this
+
+323
+00:12:33,120 --> 00:12:33,960
+After all of it
+
+324
+00:12:33,960 --> 00:12:34,920
+*(crowd) make adults!
+
+325
+00:12:34,920 --> 00:12:35,420
+Whaaa?
+
+326
+00:12:35,420 --> 00:12:36,280
+*(crowd)is adults!
+
+327
+00:12:36,280 --> 00:12:37,160
+Wat?
+
+328
+00:12:37,160 --> 00:12:38,620
+*(crowd) adult movies!
+
+329
+00:12:38,620 --> 00:12:39,560
+Oohh, adult movies
+
+330
+00:12:39,560 --> 00:12:41,380
+Let's check them out, we have time
+
+331
+00:12:41,380 --> 00:12:42,320
+Ha-ha
+
+332
+00:12:44,680 --> 00:12:45,340
+So
+
+333
+00:12:47,140 --> 00:12:48,400
+I didn't copy it
+
+334
+00:12:48,860 --> 00:12:50,860
+Let's copy it, why not, on the go
+
+335
+00:12:54,120 --> 00:12:55,020
+For adults
+
+336
+00:12:55,020 --> 00:12:55,740
+he-he
+
+337
+00:12:55,740 --> 00:12:57,080
+Uuumm
+
+338
+00:13:02,260 --> 00:13:02,820
+Here
+
+339
+00:13:04,060 --> 00:13:06,580
+Here we'll open our Pythony
+
+340
+00:13:13,380 --> 00:13:14,500
+Now it'll
+
+341
+00:13:16,060 --> 00:13:17,080
+It'll calculate
+
+342
+00:13:19,980 --> 00:13:22,780
+I wonder if imbd has adult movies ratings
+
+343
+00:13:23,280 --> 00:13:25,280
+I think it's any 18+ movies
+
+344
+00:13:26,180 --> 00:13:28,180
+So, let's check, right?
+
+345
+00:13:28,640 --> 00:13:29,540
+Uuumm
+
+346
+00:13:29,540 --> 00:13:30,540
+We'll cut the year
+
+347
+00:13:31,580 --> 00:13:32,680
+And instead
+
+348
+00:13:35,840 --> 00:13:37,840
+Rigth? Adult movies
+
+349
+00:13:38,400 --> 00:13:40,700
+Aaand, I forgot to close it
+
+350
+00:13:43,020 --> 00:13:43,520
+RIght?
+
+351
+00:13:44,640 --> 00:13:45,580
+Hey, stop
+
+352
+00:13:46,400 --> 00:13:48,380
+It turns out that there is no
+
+353
+00:13:48,380 --> 00:13:51,100
+for ad... Let's do it this way
+
+354
+00:13:52,040 --> 00:13:52,620
+Aha
+
+355
+00:13:52,860 --> 00:13:55,020
+"Cannot choose from an empty sequence"
+
+356
+00:13:55,420 --> 00:13:58,360
+It seems that there is nothing with this rating among adult movies
+
+357
+00:13:58,900 --> 00:14:00,900
+Let's better
+
+358
+00:14:01,920 --> 00:14:03,920
+Cut 10000 votes
+
+359
+00:14:07,820 --> 00:14:08,400
+Oh!
+
+360
+00:14:08,500 --> 00:14:10,500
+Kill Thrill from 2006
+
+361
+00:14:10,740 --> 00:14:12,280
+Some drama
+
+362
+00:14:12,280 --> 00:14:13,400
+Let's look for something else
+
+363
+00:14:14,340 --> 00:14:16,340
+Write them down, yeah, ha-ha-ha
+
+364
+00:14:17,040 --> 00:14:18,160
+That's it?
+
+365
+00:14:18,160 --> 00:14:19,400
+Laura
+
+366
+00:14:19,400 --> 00:14:20,360
+Crotch
+
+367
+00:14:20,360 --> 00:14:21,400
+Tomb Raider
+
+368
+00:14:21,400 --> 00:14:22,540
+*(crowd)he-he-he-he
+
+369
+00:14:22,540 --> 00:14:24,360
+Ok, that's enough, ha-ha-ha
+
+370
+00:14:24,800 --> 00:14:26,060
+So, that's it
+
+371
+00:14:27,460 --> 00:14:29,460
+That's all I have, he-he
+
+372
+00:14:29,940 --> 00:14:31,940
+Ask your questions if you have any
+
